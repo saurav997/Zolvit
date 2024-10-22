@@ -2,18 +2,18 @@ import streamlit as st
 import os
 
 main_page = st.Page(
-    page = "views\main.py",
+    page = "views/main.py",
     title = "Invoice Extractor Project",
     default = True
 )
 
 pdf_invoice_page = st.Page(
-    page = "views\pdf_extractor.py",
+    page = "views/pdf_extractor.py",
     title = "PDF Invoice Information extractor",
     default = False
 )
 jpg_invoice_page = st.Page(
-    page = "views\jpg_invoice_app.py",
+    page = "views/jpg_invoice_app.py",
     title = "Image Invoice Information extractor",
     default = False
 )
